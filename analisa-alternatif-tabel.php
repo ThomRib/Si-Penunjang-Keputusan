@@ -39,6 +39,7 @@ if (isset($altkriteria)) {
 		array_splice($nid, $ne, 1);
 
 		// print_r($r);
+		
 		// print_r($nid);
 		// die();
 
