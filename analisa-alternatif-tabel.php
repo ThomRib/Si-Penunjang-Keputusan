@@ -41,6 +41,7 @@ if (isset($altkriteria)) {
 		// print_r($r);
 		
 		// print_r($nid);
+		
 		// die();
 
 		$no=1; foreach ($r as $k => $v) {
