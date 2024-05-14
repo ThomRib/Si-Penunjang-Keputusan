@@ -4,7 +4,6 @@ include_once('includes/skor.inc.php');
 include_once('includes/alternatif.inc.php');
 include_once('includes/bobot.inc.php');
 
-
 $bobotObj = new Bobot($db);
 $skoObj = new Skor($db);
 $altObj = new Alternatif($db);
