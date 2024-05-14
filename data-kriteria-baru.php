@@ -6,7 +6,6 @@ include_once('includes/kriteria.inc.php');
 $kriObj = new Kriteria($db);
 
 if ($_POST) {
-
 	$kriObj->id = $_POST['id_kriteria'];
 	$kriObj->nama = $_POST['nama'];
 
