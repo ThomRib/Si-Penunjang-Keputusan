@@ -1,6 +1,5 @@
 <?php
 include_once('includes/header.inc.php');
-
 include_once('includes/Alternatif.inc.php');
 $altObj = new Alternatif($db);
 
