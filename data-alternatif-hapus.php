@@ -1,4 +1,5 @@
 <?php
+
 include_once("includes/config.php");
 $database = new Config();
 $db = $database->getConnection();
