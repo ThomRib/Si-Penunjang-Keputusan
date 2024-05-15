@@ -1,9 +1,11 @@
 <?php
 include_once("includes/config.php");
+
 $database = new Config();
 $db = $database->getConnection();
 
 include_once('includes/alternatif.inc.php');
+
 $pro = new Alternatif($db);
 $id = isset($_GET['id']) ? $_GET['id'] : die('ERROR: missing ID.');
 $pro->id = $id;
