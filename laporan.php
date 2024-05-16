@@ -1,6 +1,6 @@
 <?php include("includes/header.inc.php"); ?>
     <div id="container" class="container">
-			<?php
+		<?php
 			include_once('includes/alternatif.inc.php');
 			$pro1 = new Alternatif($db);
 			$stmt1 = $pro1->readAll();
