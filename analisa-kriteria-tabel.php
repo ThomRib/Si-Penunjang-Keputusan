@@ -1,5 +1,4 @@
 <?php
-
 include_once('includes/header.inc.php');
 include_once('includes/bobot.inc.php');
 include_once('includes/kriteria.inc.php');
