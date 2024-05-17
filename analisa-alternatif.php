@@ -1,5 +1,4 @@
 <?php
-
 include_once('includes/header.inc.php');
 include_once('includes/skor.inc.php');
 include_once('includes/alternatif.inc.php');
